@@ -1,0 +1,33 @@
+1.import numpy as np
+  a= np.zeros(10,dtype='int32')
+  a[4]=1
+  print(a)
+
+2.import numpy as np
+ a=np.random.randint(10,49,size=(10))
+ print(a)
+
+3.import numpy as np
+ arr = np.arange(0,9).reshape(3,3)
+ print(arr)
+
+4.import numpy as np
+  a= np.array([1,2,0,0,4,0])
+  for i in range(6) :
+  if a[i]!=0 : 
+  print(i)
+
+5.import numpy as np
+ x = np.random.random((10,10))
+ print("Original Array:")
+ print(x) 
+ xmin, xmax = x.min(), x.max()
+ print("Minimum and Maximum Values:")
+ print(xmin, xmax)
+
+
+6.import numpy as np
+  a= np.random.randint(0,100,size=(30))
+  print(a)
+  np.mean(a)
+     
